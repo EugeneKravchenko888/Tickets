@@ -7,13 +7,13 @@ import ru.netology.javaqa.manager.AviaSouls;
 import java.util.Comparator;
 
 public class AviaSoulsTest {
-    Ticket ticket1 = new Ticket("City1", "City2", 30_000, 15, 19);
-    Ticket ticket2 = new Ticket("City3", "City1", 31_000, 23, 1);
-    Ticket ticket3 = new Ticket("City1", "City2", 5_000, 11, 13);
-    Ticket ticket4 = new Ticket("City4", "City1", 30_000, 2, 6);
-    Ticket ticket5 = new Ticket("City3", "City1", 10_000, 15, 17);
-    Ticket ticket6 = new Ticket("City1", "City2", 22_000, 5, 11);
-    Ticket ticket7 = new Ticket("City1", "City2", 50_000, 23, 5);
+    Ticket ticket1 = new Ticket("City1", "City2", 10_000, 13, 21);
+    Ticket ticket2 = new Ticket("City3", "City1", 11_000, 11, 2);
+    Ticket ticket3 = new Ticket("City1", "City2", 17_000, 10, 14);
+    Ticket ticket4 = new Ticket("City4", "City1", 20_000, 12, 8);
+    Ticket ticket5 = new Ticket("City3", "City1", 13_000, 11, 14);
+    Ticket ticket6 = new Ticket("City1", "City2", 11_000, 15, 13);
+    Ticket ticket7 = new Ticket("City1", "City2", 18_000, 21, 9);
     AviaSouls manager = new AviaSouls();
 
     @BeforeEach
